@@ -3,6 +3,7 @@
         <p>Copyright &copy; <?php echo date("Y") ?> <a href="<?php echo get_option('home'); ?>"><?php bloginfo('name'); ?></a>. All Rights Reserved.</p>
     </div>
 </div>
+<p><?php wp_footer() ?></p>
 <!-- Can put web stats code here -->
 <script type="text/javascript">
 
