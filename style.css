@@ -1,0 +1,455 @@
+/*
+Theme Name: l
+Theme URI: http://lyxint.com/
+Description: A simple and clean wordpress theme
+Version: 0.1
+Author: lyxint
+Author URI: http://lyxint.com/
+Tags: white, blue, fixed-width 
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Kreon:400);
+@import url(http://fonts.googleapis.com/css?family=Kreon:400italic);
+@import url(http://fonts.googleapis.com/css?family=Kreon:700);
+
+body {
+    background-color: #FFFFFF;
+    color: #333;
+    font-family: "Kreon", serif;
+    font-weight: 400;
+    line-height: 1.5em;
+    margin: 20px 0;
+    padding: 0;
+}
+
+i, em {
+    font-family: "Georgia", serif;
+    font-style: italic;
+}
+
+b, strong, h1, h2, h3, h4, h5, h6, h7 {
+    font-family: "Kreon", serif;
+    font-weight: 700;
+}
+
+h1, h2, h3, h4, h5, h6, h7 {
+    color: #333;
+}
+
+#page {
+    margin: 0 auto;
+    width: 640px;
+    overflow: hidden;
+}
+
+#page a {
+    color: #39f;
+    text-decoration: none;
+    border-bottom: 1px solid;
+    padding: 0;
+    margin: 0;
+}
+
+#page a:visited {
+    color: #777;
+}
+
+#page a:hover {
+    color: #f30 !important;
+    padding-top: 0.1em;
+}
+
+img {
+    border: 0;
+}
+
+#topnav {
+    color: #fff;
+    font-size: 1em;
+    margin: 0 0 25px 0;
+    position: relative;
+    overflow: hidden;
+    clear: both;
+}
+
+#topnav a {
+    color: #333;
+    text-shadow: 1px 1px 0px #fff;
+}
+
+#topnav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#topnav li {
+    float: left;
+    margin: 0 20px 0 0;
+    padding: 0;
+}
+
+#tagline {
+    border-top: 1px dotted #ccc;
+    border-bottom: 1px dotted #ccc;
+    padding: 1em 0;
+    margin: 1em 0;
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+#footer {
+    font-size: 0.9em;
+    color: #777;
+    text-align: center;
+}
+
+#footer a {
+    color: #777;
+}
+
+#content {
+}
+
+#widecontent {
+}
+
+/*
+ *
+ * Posts
+ *
+ */
+ 
+.post {
+    margin: 0 0 25px 0;
+}
+
+.post .entry {
+    margin: 0 0 10px 0;
+    padding: 0 0 10px 0;
+    border-bottom: 1px dotted #eee;
+}
+
+.post img {
+    max-width: 100%;
+    height: auto;
+}
+
+.post h2 {
+    color: #39f;
+    padding: 0;
+    margin-bottom: 0.25em;
+}
+
+.the-date {
+    margin-top: 0.25em;
+    color: #ccc;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.post h2 a {
+    font-size: 1em;
+    text-decoration: none;
+    border: none;
+    letter-spacing: -1px;
+}
+
+.post h2 a:visited {
+    color: #39f !important;
+}
+
+.post h3 {
+    margin: 0 0 5px 0;
+    padding: 0;
+}
+
+.post h3 a {
+    font-weight: normal;
+    font-size: 1.2em;
+    letter-spacing: -1px;
+}
+
+.post blockquote {
+    margin: 0 25px 0 25px;
+    padding: 0 10px 0 10px;
+    border-left: 5px solid #eee;
+}
+
+.post .sidebar {
+    float: right;
+    width: 200px;
+    border-left: 2px solid #ccc;
+    padding: 15px;
+    margin-left: 15px;
+}
+
+.postmetadata {
+    padding: 1em 0;
+}
+
+.postmetadata a {
+}
+
+.postmetadata.alt {
+}
+
+.postmetadata.alt p {
+    margin-left: 25px;
+    text-indent: -25px;
+}
+
+div.wp-caption {
+    text-align: center;
+}
+
+p.wp-caption-text {
+    margin: 0;
+    padding: 0;
+    font-size: 0.9em;
+    color: #777;
+}
+
+.navigation {
+    overflow: hidden;
+    clear: both;
+}
+
+.navigation a {
+}
+
+.navigation a:visited {
+    color: #000 !important;
+}
+
+.navigation .older {
+    float: left;
+}
+
+.navigation .newer {
+    float: right;
+}
+
+.navigation.comments {
+    padding: 0;
+}
+
+/*
+ *
+ * Comments
+ *
+ */
+ 
+#commentform {
+}
+
+ul.formlist {
+    list-style: none;
+}
+
+#author, #email, #url, #comment, #s, #subscribe, select {
+    padding: 5px;
+    border: 1px solid #ccc;
+    font-size: 0.9em;
+}
+
+#author:focus, #email:focus, #url:focus, #comment:focus, #s:focus, #subscribe:focus {
+    background-color: #ffe;
+}
+
+#comment {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box:
+    -webkit-box-sizing: border-box;
+    width: 100%;
+}
+
+#comments {
+    margin: 25px 0 0 0;
+}
+
+#commentform input, #commentform textarea {
+    width: 98%;
+}
+
+.commentlist {
+    clear: both;
+    margin: 0 0 10px 0;
+    padding: 0;
+}
+
+.commentlist li {
+    padding: 15px 0;
+    margin: 0;
+    border-bottom: 1px dotted #ccc;
+    list-style: none;
+    overflow: hidden;
+    clear: both;
+}
+
+.commentlist li.pingback {
+    font-size: 0.9em;
+    padding: 5px 0;
+}
+
+
+.commentlist .alt {
+}
+
+.commentlist .bypostauthor {
+}
+
+.commentlist .avatar {
+}
+
+.commentlist .children {
+    list-style: none;
+}
+
+.commentlist .author {
+    float: right;
+    text-align: right;
+    font-weight: bold;
+}
+
+/*
+ *
+ * Miscellaneous
+ *
+ */
+
+.clear {
+    clear: both;
+}
+
+.center {
+    text-align: center;
+}
+
+.required {
+    color: red;
+}
+
+#copyright {
+    padding: 50px 0 0 0;
+    color: #777;
+}
+
+.alignleft {
+    padding: 0 10px 5px 0;
+    float: left;
+}
+
+.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.alignright {
+    padding: 0 0 5px 10px;
+    float: right;
+}
+
+.thumbleft {
+    float: left;
+    margin: 0 10px 0 0;
+}
+
+.thumbright {
+    float: right;
+    margin: 0 0 0 10px;
+}
+
+.fulllandscape {
+}
+
+.fullportrait {
+}
+
+.highlight {
+    background-color: #ff0;
+}
+
+.floatleft {
+    float: left;
+}
+
+.floatright {
+    float: right;
+}
+
+pre.code {
+    font-family: monospace;
+    background-color: #ffe;
+    padding: 10px;
+    border: 1px dashed #ccc;
+}
+
+/*
+ * 
+ * Footnotes
+ *
+ */
+
+.footnotes {
+    padding: 10px 0 10px 0;
+}
+
+.footnotes .footnotedivider {
+    width: 120px;
+    border-bottom: 1px solid #ccc;
+}
+
+.footnotes li {
+    margin: 0 0 5px 0;
+}
+
+sup.footnote a {
+    text-decoration: none !important;
+    border: none !important;
+}
+
+sup.footnote {
+    line-height: 0em;
+}
+
+.footnotereverse a {
+    padding: 0 0 0 5px;
+    text-decoration: none !important;
+    border: none !important;
+}
+
+/*
+ * Menu
+ *
+ */
+
+.current-menu-item a {
+    color: #000 !important;
+    border-bottom: none !important;
+}
+
+/*
+ *
+ * All posts
+ *
+ */
+#allposts p {
+    margin: 0;
+    padding: 0;
+}
+
+#allposts .year, #allposts .month {
+    margin: 1em 0;
+}
+
+#allposts .year, #allposts .month, #allposts .date {
+    font-weight: bold;
+}
+
+#allposts .date {
+    display: inline-block;
+    width: 25px;
+    text-align: right;
+}
