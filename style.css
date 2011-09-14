@@ -6,6 +6,9 @@ Version: 0.1
 Author: lyxint
 Author URI: http://lyxint.com/
 Tags: white, blue, fixed-width 
+
+The CSS, XHTML and design is released under the GPL.
+
 */
 
 @import url(http://fonts.googleapis.com/css?family=Kreon:400);
@@ -425,7 +428,12 @@ sup.footnote {
  *
  */
 
-.current-menu-item a {
+.menu-subscribe {
+    background: url(images/feedicon.png) 0 3px no-repeat;
+    text-indent: 20px;
+}
+
+.current-menu-item a, .current_page_item a {
     color: #000 !important;
     border-bottom: none !important;
 }
@@ -452,4 +460,87 @@ sup.footnote {
     display: inline-block;
     width: 25px;
     text-align: right;
+}
+
+/**
+ *
+ * Grue
+ *
+ **/
+
+.error404 {
+    height: 100%;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.error404 * {
+    color: #aaa;
+    padding: 0;
+    margin: 0;
+}
+
+.error404 #topnav {
+    display: none;
+}
+
+.error404 #footer {
+    display: none;
+}
+
+.error404 #page {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.error404 #content {
+    margin: 1em;
+    max-width: 500px;
+}
+
+.error404 #title {
+    margin: 1em 0;
+}
+
+.error404 #title h1 {
+    font-size: 1em;
+}
+
+.error404 #title p {
+    margin: 0;
+}
+
+.error404 p {
+    margin: 1em 0;
+}
+
+.error404 #prompt {
+}
+
+.error404 #searchform {
+    margin: 0 0 0 -1px;
+    padding: 0;
+    display: inline-block;
+    width: 90%;
+}
+
+.error404 #s, .error404 #s:focus {
+    background-color: #000;
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    width: 90%;
+}
+
+.error404 .grue {
+    position: absolute;
+    width: 96px;
+    height: 132px;
+    background: url(images/grue.png) no-repeat;
 }

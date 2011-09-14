@@ -13,5 +13,8 @@
 <body>
 <div id="page">
     <div id="topnav">
-        <?php wp_nav_menu(); ?>
+        <ul id="nav">
+        <li <?php if (is_home()): ?>class="current_page_item"<?php endif; ?>><a href="<?php bloginfo('url'); ?>" title="Home">Home</a></li>
+        <?php wp_list_pages('title_li=&depth=0&sort_column=menu_order'); ?>
+        </ul>
     </div>
