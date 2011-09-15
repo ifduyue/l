@@ -26,8 +26,13 @@
             <div class="alignright"><?php previous_posts_link('Newer Entries &raquo;') ?></div>
         </div>
         <?php if ($p == '') : ?>
-        <div id="misc">
-            <?php dynamic_sidebar('Foot Sidebar'); ?>
+        <div id="footbar">
+            <div id="left-footbar">
+            <?php dynamic_sidebar('Left Foot'); ?>
+            </div>
+            <div id="right-footbar">
+            <?php dynamic_sidebar('Right Foot'); ?>
+            </div>
         </div>
         <?php endif; ?>
 

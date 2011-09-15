@@ -23,7 +23,15 @@ if ( function_exists('register_sidebar') ) {
     ));
     
     register_sidebar(array(
-        'name' => 'Foot Sidebar',
+        'name' => 'Left Foot',
+        'before_widget' => '',
+        'after_widget' => '',
+        'before_title' => '',
+        'after_title' => '',
+    ));
+
+    register_sidebar(array(
+        'name' => 'Right Foot',
         'before_widget' => '',
         'after_widget' => '',
         'before_title' => '',

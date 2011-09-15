@@ -438,3 +438,23 @@ sup.footnote {
     border-bottom: none !important;
 }
 
+/*
+ * Footbar
+ *
+ */
+#footbar {
+    overflow: hidden;
+    clear: both;
+}
+
+#left-footbar {
+    width: 320px;
+    float: left;
+    overflow: hidden;
+}
+
+#right-footbar {
+    width: 320px;
+    float: left;
+    overflow: hidden;
+}
