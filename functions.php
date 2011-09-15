@@ -21,6 +21,15 @@ if ( function_exists('register_sidebar') ) {
         'before_title' => '',
         'after_title' => '',
     ));
+    
+    register_sidebar(array(
+        'name' => 'Foot Sidebar',
+        'before_widget' => '',
+        'after_widget' => '',
+        'before_title' => '',
+        'after_title' => '',
+    ));
+
 }
 
 ?>

@@ -26,6 +26,10 @@
             <div class="alignright"><?php previous_posts_link('Newer Entries &raquo;') ?></div>
         </div>
 
+        <div>
+            <?php dynamic_sidebar('Foot Sidebar'); ?>
+        </div>
+
     <?php else : ?>
 
         <h2 class="center">Not Found</h2>
