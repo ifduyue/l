@@ -253,7 +253,7 @@ ul.formlist {
     list-style: none;
 }
 
-#author, #email, #url, #comment, #s, #subscribe, select {
+#author, #email, #url, #comment, #s, #subscribe, .formlist input, select {
     padding: 5px;
     border: 1px solid #ccc;
     font-size: 0.9em;
