@@ -214,6 +214,7 @@ p.wp-caption-text {
     overflow: hidden;
     clear: both;
     margin: 0 0 25px 0;
+    padding: 0 0 10px 0;
     border-bottom: 1px dotted #ccc;
 }
 
