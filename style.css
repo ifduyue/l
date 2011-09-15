@@ -89,7 +89,7 @@ img {
     padding: 0;
 }
 
-#tagline {
+.tagline {
     border-top: 1px dotted #ccc;
     border-bottom: 1px dotted #ccc;
     padding: 1em 0;
