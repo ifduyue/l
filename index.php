@@ -25,10 +25,11 @@
             <div class="alignleft"><?php next_posts_link('&laquo; Older Entries') ?></div>
             <div class="alignright"><?php previous_posts_link('Newer Entries &raquo;') ?></div>
         </div>
-
-        <div>
+        <?php if ($p == '') : ?>
+        <div class="tagline">
             <?php dynamic_sidebar('Foot Sidebar'); ?>
         </div>
+        <?php endif; ?>
 
     <?php else : ?>
 
