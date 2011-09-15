@@ -89,7 +89,7 @@ img {
     padding: 0;
 }
 
-.tagline {
+#tagline {
     border-top: 1px dotted #ccc;
     border-bottom: 1px dotted #ccc;
     padding: 1em 0;
@@ -213,6 +213,7 @@ p.wp-caption-text {
 .navigation {
     overflow: hidden;
     clear: both;
+    margin: 0 0 25px 0;
 }
 
 .navigation a {
@@ -435,109 +436,3 @@ sup.footnote {
     border-bottom: none !important;
 }
 
-/*
- *
- * All posts
- *
- */
-#allposts p {
-    margin: 0;
-    padding: 0;
-}
-
-#allposts .year, #allposts .month {
-    margin: 1em 0;
-}
-
-#allposts .year, #allposts .month, #allposts .date {
-    font-weight: bold;
-}
-
-#allposts .date {
-    display: inline-block;
-    width: 25px;
-    text-align: right;
-}
-
-/**
- *
- * Grue
- *
- **/
-
-.error404 {
-    height: 100%;
-    background-color: #000;
-    color: #fff;
-    margin: 0;
-    padding: 0;
-}
-
-.error404 * {
-    color: #aaa;
-    padding: 0;
-    margin: 0;
-}
-
-.error404 #topnav {
-    display: none;
-}
-
-.error404 #footer {
-    display: none;
-}
-
-.error404 #page {
-    width: 100%;
-    max-width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-}
-
-.error404 #content {
-    margin: 1em;
-    max-width: 500px;
-}
-
-.error404 #title {
-    margin: 1em 0;
-}
-
-.error404 #title h1 {
-    font-size: 1em;
-}
-
-.error404 #title p {
-    margin: 0;
-}
-
-.error404 p {
-    margin: 1em 0;
-}
-
-.error404 #prompt {
-}
-
-.error404 #searchform {
-    margin: 0 0 0 -1px;
-    padding: 0;
-    display: inline-block;
-    width: 90%;
-}
-
-.error404 #s, .error404 #s:focus {
-    background-color: #000;
-    margin: 0;
-    padding: 0;
-    border: none;
-    outline: none;
-    width: 90%;
-}
-
-.error404 .grue {
-    position: absolute;
-    width: 96px;
-    height: 132px;
-    background: url(images/grue.png) no-repeat;
-}

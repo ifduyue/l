@@ -1,7 +1,7 @@
 <?php get_header(); ?>
     <div id="content">
     <?php if ($p == '') : ?>
-    <div class="tagline">
+    <div id="tagline">
         <?php dynamic_sidebar('Index Description'); ?>
     </div>
     <?php endif; ?>
@@ -26,7 +26,7 @@
             <div class="alignright"><?php previous_posts_link('Newer Entries &raquo;') ?></div>
         </div>
         <?php if ($p == '') : ?>
-        <div class="tagline">
+        <div id="misc">
             <?php dynamic_sidebar('Foot Sidebar'); ?>
         </div>
         <?php endif; ?>
