@@ -274,6 +274,15 @@ ul.formlist {
     margin: 25px 0 0 0;
 }
 
+#comments span {
+    color: #EEE;
+    display: block;
+    float: right;
+    font-size: 120px;
+    font-weight: normal;
+    padding-top: 25px;
+}
+
 #commentform input, #commentform textarea {
     width: 98%;
 }
