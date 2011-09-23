@@ -4,6 +4,7 @@
     </div>
 </div>
 <p><?php wp_footer() ?></p>
+<?php dynamic_sidebar('Right Foot'); ?>
 <!-- Can put web stats code here -->
 <script type="text/javascript">
 
