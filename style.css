@@ -274,15 +274,6 @@ ul.formlist {
     margin: 25px 0 0 0;
 }
 
-#commentlist span {
-    color: #EEE;
-    display: block;
-    float: right;
-    font-size: 120px;
-    font-weight: normal;
-    padding-top: 25px;
-}
-
 #commentform input, #commentform textarea {
     width: 98%;
 }
@@ -300,6 +291,15 @@ ul.formlist {
     list-style: none;
     overflow: hidden;
     clear: both;
+}
+
+.commentlist span {
+    color: #EEE;
+    display: block;
+    float: right;
+    font-size: 120px;
+    font-weight: normal;
+    padding-top: 25px;
 }
 
 .commentlist li.pingback {
