@@ -293,7 +293,7 @@ ul.formlist {
     clear: both;
 }
 
-.commentlist span {
+.commentlist span.level {
     color: #EEE;
     display: block;
     float: right;
