@@ -105,6 +105,7 @@ img {
     font-size: 0.9em;
     color: #777;
     text-align: center;
+    clear: both;
 }
 
 #footer a {
