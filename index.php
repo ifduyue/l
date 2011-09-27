@@ -1,7 +1,7 @@
 <?php get_header(); ?>
-    <div id="content">
+    <div id="content" class="clear">
     <?php if ($p == '') : ?>
-    <div id="tagline">
+    <div id="tagline" class="clear">
         <?php dynamic_sidebar('Index Description'); ?>
     </div>
     <?php endif; ?>
