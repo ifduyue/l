@@ -38,6 +38,15 @@ if ( function_exists('register_sidebar') ) {
         'after_title' => '',
     ));
 
+    register_sidebar(array(
+        'name' => 'Bottom Foot',
+        'before_widget' => '',
+        'after_widget' => '',
+        'before_title' => '',
+        'after_title' => '',
+    ));
+
+
 }
 
 ?>

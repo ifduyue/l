@@ -42,7 +42,7 @@ b, strong, h1, h2, h3, h4, h5, h6, h7 {
 }
 
 h1, h2, h3, h4, h5, h6, h7 {
-    color: #333;
+    color: #39f;
 }
 
 #page {
@@ -111,6 +111,7 @@ img {
     font-size: 0.9em;
     color: #777;
     text-align: center;
+    clear: both;
 }
 
 #footer a {
@@ -280,15 +281,6 @@ ul.formlist {
     margin: 25px 0 0 0;
 }
 
-#comments span {
-    color: #EEE;
-    display: block;
-    float: right;
-    font-size: 120px;
-    font-weight: normal;
-    padding-top: 25px;
-}
-
 #commentform input, #commentform textarea {
     width: 98%;
 }
@@ -306,6 +298,15 @@ ul.formlist {
     list-style: none;
     overflow: hidden;
     clear: both;
+}
+
+.commentlist span.level {
+    color: #EEE;
+    display: block;
+    float: right;
+    font-size: 120px;
+    font-weight: normal;
+    padding-top: 25px;
 }
 
 .commentlist li.pingback {
