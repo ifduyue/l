@@ -148,7 +148,7 @@ img {
 .post h2 {
     color: #39f;
     padding: 0;
-    margin: 0 0.45em 0.25em 0;
+    margin: 0.45em 0 0.25em 0;
 }
 
 .the-date {
@@ -170,7 +170,7 @@ img {
 }
 
 .post h3 {
-    margin: 0 10px 5px 0;
+    margin: 10px 0 5px 0;
     padding: 0;
 }
 
