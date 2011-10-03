@@ -15,6 +15,12 @@ Style modified from http://flagrantdisregard.com/
 @import url(http://fonts.googleapis.com/css?family=Kreon:400italic);
 @import url(http://fonts.googleapis.com/css?family=Kreon:700);
 
+html, body, div, h1, h2, h3, h4, h5, h6, table, pre, fieldset, img, p {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
 body {
     background-color: #FFFFFF;
     color: #333;
@@ -146,7 +152,7 @@ img {
 .post h2 {
     color: #39f;
     padding: 0;
-    margin-bottom: 0.25em;
+    margin: 0.45em 0 0.25em 0;
 }
 
 .the-date {
@@ -168,7 +174,7 @@ img {
 }
 
 .post h3 {
-    margin: 0 0 5px 0;
+    margin: 10px 0 5px 0;
     padding: 0;
 }
 
