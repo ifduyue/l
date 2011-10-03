@@ -134,6 +134,10 @@ img {
     border-bottom: 1px dotted #eee;
 }
 
+.post p {
+    margin-bottom: 1em;
+}
+
 .post img {
     max-width: 100%;
     height: auto;
