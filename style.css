@@ -152,6 +152,7 @@ img {
 .post h2 {
     color: #39f;
     padding: 0;
+    line-height: 1.2em;
     margin: 0.45em 0 0.25em 0;
 }
 
