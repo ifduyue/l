@@ -29,9 +29,10 @@
     <?php $count_pings = 1; foreach ($comments as $comment) : ?>
 
         <li <?php echo $oddcomment; ?>id="comment-<?php comment_ID() ?>">
-            <div style="float:left;padding-right:5px;height:32px;"><?php echo get_avatar( $comment, 32 ); ?></div>
+            <div style="float:left;padding-right:5px;"><?php echo get_avatar( $comment, 32 ); ?></div>
             <span class="level"><?php echo $count_pings; $count_pings++; ?></span>
             <cite><?php comment_author_link() ?>&nbsp;said at <?php comment_time('H:i') ?> on <?php comment_date('Y-m-d') ?>:</cite>
+            <br class="clear">
             <?php comment_text() ?>
             <?php if ($comment->comment_approved == '0') : ?>
             <p><b>Your comment is awaiting moderation.</b></p>
