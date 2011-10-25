@@ -29,7 +29,7 @@
     <?php $count_pings = 1; foreach ($comments as $comment) : ?>
 
         <li <?php echo $oddcomment; ?>id="comment-<?php comment_ID() ?>">
-            <div style="float:left;padding-right:5px;"><?php echo get_avatar( $comment, 26 ); ?></div>
+            <div style="float:left;padding-right:5px;height:26px;"><?php echo get_avatar( $comment, 26 ); ?></div>
             <span class="level"><?php echo $count_pings; $count_pings++; ?></span>
             <cite><?php comment_author_link() ?>&nbsp;said at <?php comment_time('H:i') ?> on <?php comment_date('Y-m-d') ?>:</cite>
             <?php comment_text() ?>
