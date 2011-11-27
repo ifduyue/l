@@ -472,13 +472,14 @@ sup.footnote {
 }
 
 #left-footbar {
-    width: 320px;
+    width: 315px;
     float: left;
     overflow: hidden;
 }
 
 #right-footbar {
-    width: 320px;
+    margin-left: 10px;
+    width: 315px;
     float: left;
     overflow: hidden;
 }
