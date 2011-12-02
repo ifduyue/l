@@ -36,12 +36,13 @@ i, em {
     font-style: italic;
 }
 
-b, strong, h1, h2, h3, h4, h5, h6, h7 {
+b, strong, h1, h2, h3, h4, h5, h6 {
     font-family: "Kreon", serif;
     font-weight: 700;
 }
 
-h1, h2, h3, h4, h5, h6, h7 {
+h1, h2, h3, h4, h5, h6 {
+    margin: 0.45em 0 0.25em 0;
     color: #39f;
 }
 
@@ -153,7 +154,6 @@ img {
     color: #39f;
     padding: 0;
     line-height: 1.2em;
-    margin: 0.45em 0 0.25em 0;
 }
 
 .the-date {
@@ -175,7 +175,6 @@ img {
 }
 
 .post h3 {
-    margin: 10px 0 5px 0;
     padding: 0;
 }
 
