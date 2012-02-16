@@ -80,11 +80,13 @@
 
 
 <?php else : ?>
+
 <p>Your email address will not be published. Required fields are marked <span class="required">*</span></p>
+<?php do_action('comment_form_before_fields'); ?>
 <p><label for="author">Name</label> <span class="required">*</span><input type="text" aria-required="true" size="30" value="" name="author" id="author"></p>
 <p><label for="email">Email</label> <span class="required">*</span><input type="text" aria-required="true" size="30" value="" name="email" id="email"></p>
 <p><label for="url">Website</label><input type="text" size="30" value="" name="url" id="url"></p>
-<?php mcsp_html(); ?>
+<?php do_action('comment_form_after_fields'); ?>
 
 <?php endif; ?>
 
