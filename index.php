@@ -7,10 +7,12 @@
         <?php while (have_posts()) : the_post(); ?>
         <div class="post" id="post-<?php the_ID(); ?>">
             <h2><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h2>
-            <p class="the-date"><?php the_time('Y-m-d H:i'); ?></p>
+            <span class="the-date"><?php the_time('Y-m-d H:i'); ?></span>
+            <?php if ($p != '';) : ?>
             <div class="entry">
-                <?php if ($p != '') {the_content('More...');} ?>
+                <?php the_content('More...'); ?>
             </div>
+            <?php endif; ?>
             <div class="postmetadata">
                 <b>Category:</b> <?php the_category(', ') ?> <?php the_tags('| <b>Tag:</b> ', ', ', ''); ?> <?php if ( $user_ID ) : ?> | <b>Modify:</b> <?php edit_post_link(); ?> <?php endif; ?> | <?php comments_popup_link('No Comments &#187;', '1 Comment &#187;', '% Comments &#187;'); ?>
             </div>
