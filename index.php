@@ -8,7 +8,7 @@
         <div class="post" id="post-<?php the_ID(); ?>">
             <h2><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h2>
             <span class="the-date"><?php the_time('Y-m-d H:i'); ?></span>
-            <?php if ($p != '';) : ?>
+            <?php if ($p != '') : ?>
             <div class="entry">
                 <?php the_content('More...'); ?>
             </div>
