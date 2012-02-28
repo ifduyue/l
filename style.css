@@ -148,7 +148,6 @@ img {
 .post .entry {
     margin: 0 0 10px 0;
     padding: 0 2px 10px 2px;
-    border-bottom: 1px dotted #eee;
 }
 
 .post p {
@@ -210,6 +209,7 @@ img {
 
 .postmetadata {
     padding: 1em 0;
+    border-bottom: 1px dotted #eee;
 }
 
 .postmetadata a {
