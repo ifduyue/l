@@ -129,12 +129,6 @@ img {
     color: #777;
 }
 
-#content {
-}
-
-#widecontent {
-}
-
 /*
  *
  * Posts
@@ -148,6 +142,10 @@ img {
 .post .entry {
     margin: 0 0 10px 0;
     padding: 1em 2px;
+}
+
+.post .entry h1, .post .entry h2, .post .entry h3, .post .entry h4, .post .entry h5, .post .entry h6 {
+    background-color: #efefef;
 }
 
 .post p {
@@ -321,31 +319,6 @@ ul.formlist {
     font-size: 100px;
     font-weight: normal;
     padding-top: 18px;
-}
-
-.commentlist li.pingback {
-    font-size: 0.9em;
-    padding: 5px 0;
-}
-
-
-.commentlist .alt {
-}
-
-.commentlist .bypostauthor {
-}
-
-.commentlist .avatar {
-}
-
-.commentlist .children {
-    list-style: none;
-}
-
-.commentlist .author {
-    float: right;
-    text-align: right;
-    font-weight: bold;
 }
 
 /*
