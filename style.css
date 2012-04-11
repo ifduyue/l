@@ -466,3 +466,11 @@ sup.footnote {
     float: left;
     overflow: hidden;
 }
+
+/*
+ * wp-syntax
+ *
+ */
+.wp_syntax table, .wp_syntax td, .wp_syntax th {
+    border: none;
+}
