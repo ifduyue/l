@@ -12,7 +12,7 @@
                 <?php the_content('More...'); ?>
             </div>
             <div class="postmetadata">
-                <b>Category:</b> <?php the_category(', ') ?> | <b>Tag:</b> <?php the_tags('', ', ', ''); ?> <?php if ( $user_ID ) : ?> | <b>Modify:</b> <?php edit_post_link(); ?> <?php endif; ?> | <?php comments_popup_link('No Comments &#187;', '1 Comment &#187;', '% Comments &#187;'); ?>
+                <?php if ( $user_ID ) : ?> <b>Modify:</b> <?php edit_post_link(); ?> | <?php endif; ?><?php comments_popup_link('No Comments &#187;', '1 Comment &#187;', '% Comments &#187;'); ?>
             </div>
         </div>
         <div class="clear"></div>
