@@ -19,3 +19,8 @@
         <?php wp_list_pages('title_li=&depth=0&sort_column=menu_order'); ?>
         </ul>
     </div>
+    <div id="tagline"> 
+        <a href="/" style="font-size:1.8em; border: none; color: #3399FF;"><?php bloginfo('name'); ?></a>
+        <p id="description" style="color:#ccc; font-size:0.8em;font-weight:bold;"><?php bloginfo('description'); ?></p>
+        <?php dynamic_sidebar('Index Description'); ?>
+    </div>
