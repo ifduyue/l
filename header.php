@@ -20,7 +20,7 @@
         </ul>
     </div>
     <div id="tagline"> 
-        <a href="/" style="font-size:1.8em; border: none; color: #3399FF;"><?php bloginfo('name'); ?></a>
+        <h1><a href="/" style="font-size:1.8em; border: none; color: #3399FF;"><?php bloginfo('name'); ?></a></h1>
         <p id="description" style="color:#ccc; font-size:0.8em;font-weight:bold;"><?php bloginfo('description'); ?></p>
         <?php dynamic_sidebar('Index Description'); ?>
     </div>

@@ -13,31 +13,28 @@ Style modified from http://flagrantdisregard.com/
 
 @import url(http://fonts.googleapis.com/css?family=Kreon:400,700);
 
-html, body, div, h1, h2, h3, h4, h5, h6, table, pre, fieldset, img, p {
+/* general */
+body {
+    background-color: #FFF;
+    color: #333;
+    font-family: "Kreon", "Xin Gothic", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+}
+
+a {
+    color: #39f;
     padding: 0;
     margin: 0;
-    border: 0;
 }
 
-body {
-    background-color: #FFFFFF;
-    color: #333;
-    font-family: "Kreon", "Xin Gothic", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", Arial, sans-serif;
-    font-weight: 400;
-    line-height: 1.5em;
-    margin: 20px 0;
-    padding: 0;
+a:hover {
+    color: #f30 !important;
+    padding-top: 0.1em;
 }
 
-table {
-    background: none repeat scroll 0 0 #FAFAFA;
-    border: 1px solid #DDDDDD;
-    border-collapse: collapse;
-}
-
-td, th {
-    border: 1px solid #DDDDDD;
-    padding: 2px 12px;
+b, strong {
+    font-weight: 700;
 }
 
 i, em {
@@ -45,40 +42,47 @@ i, em {
     font-style: italic;
 }
 
-b, strong, h1, h2, h3, h4, h5, h6 {
-    font-family: "Kreon", serif;
-    font-weight: 700;
-}
-
+/* headline */
 h1, h2, h3, h4, h5, h6 {
-    margin: 0.45em 0 0.25em 0;
-    color: #39f;
-}
-
-#page {
-    margin: 0 auto;
-    width: 640px;
-    overflow: hidden;
-}
-
-#page a {
-    color: #39f;
+    font-family: "Kreon", "Merriweather", serif;
     text-decoration: none;
+    font-weight: 700;
+    color: #39f !important;
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    text-decoration: none;
+    color: #39f !important;
+}
+
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover {
+    text-decoration: underline;
+}
+
+h1, h2, h3 {
+    margin: 0.45em 0 0.25em 0;
+}
+
+h1 {
+    font-size: 42px;
+    line-height: 52px;
+}
+
+h2 {
+    font-size: 32px;
+    line-height: 40px;
+}
+
+h3 {
+    font-family: 22px;
+    line-height: 28px;
+}
+
+/* layout */
+#page {
+    margin: 30px auto;
     padding: 0;
-    margin: 0;
-}
-
-#page a:visited {
-    color: #777;
-}
-
-#page a:hover {
-    color: #f30 !important;
-    padding-top: 0.1em;
-}
-
-img {
-    border: 0;
+    width: 640px;
 }
 
 #topnav {
@@ -107,15 +111,6 @@ img {
     padding: 0;
 }
 
-#tagline {
-    border-top: 1px dotted #ccc;
-    border-bottom: 1px dotted #ccc;
-    padding: 1em 0;
-    margin: 1em 0;
-    font-size: 1.5em;
-    line-height: 1.5em;
-}
-
 #footer {
     font-size: 0.9em;
     color: #777;
@@ -127,12 +122,37 @@ img {
     color: #777;
 }
 
-/*
- *
- * Posts
- *
- */
- 
+#footbar {
+    overflow: hidden;
+    clear: both;
+}
+
+#left-footbar {
+    width: 315px;
+    float: left;
+    overflow: hidden;
+}
+
+#right-footbar {
+    margin-left: 10px;
+    width: 315px;
+    float: left;
+    overflow: hidden;
+}
+
+.navigation .older {
+    float: left;
+}
+
+.navigation .newer {
+    float: right;
+}
+
+.navigation.comments {
+    padding: 0;
+}
+
+/* posts */
 .post {
     margin: 0 0 25px 0;
 }
@@ -156,38 +176,11 @@ img {
     height: auto;
 }
 
-.post h2 {
-    color: #39f;
-    padding: 0;
-    line-height: 1.2em;
-}
-
 .the-date {
     margin-top: 0.25em;
     color: #ccc;
     font-size: 1.2em;
     font-weight: bold;
-}
-
-.post h2 a {
-    font-size: 1em;
-    text-decoration: none;
-    border: none;
-    letter-spacing: -1px;
-}
-
-.post h2 a:visited {
-    color: #39f !important;
-}
-
-.post h3 {
-    padding: 0;
-}
-
-.post h3 a {
-    font-weight: normal;
-    font-size: 1.2em;
-    letter-spacing: -1px;
 }
 
 .post blockquote {
@@ -231,39 +224,7 @@ p.wp-caption-text {
     color: #777;
 }
 
-.navigation {
-    overflow: hidden;
-    clear: both;
-    margin: 0 0 25px 0;
-    padding: 0 0 10px 0;
-    border-bottom: 1px dotted #ccc;
-}
-
-.navigation a {
-}
-
-.navigation a:visited {
-    color: #000 !important;
-}
-
-.navigation .older {
-    float: left;
-}
-
-.navigation .newer {
-    float: right;
-}
-
-.navigation.comments {
-    padding: 0;
-}
-
-/*
- *
- * Comments
- *
- */
- 
+/* comments */
 #commentform {
 }
 
@@ -320,11 +281,30 @@ ul.formlist {
     padding-top: 18px;
 }
 
-/*
- *
- * Miscellaneous
- *
- */
+
+/* misc */
+
+table {
+    background: none repeat scroll 0 0 #FAFAFA;
+    border: 1px solid #DDDDDD;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid #DDDDDD;
+    padding: 2px 12px;
+}
+
+#tagline {
+    padding: 1em 0;
+    margin: 1em 0;
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+#tagline h1 a {
+    text-decoration: none;
+}
 
 .clear {
     clear: both;
@@ -369,12 +349,6 @@ ul.formlist {
     margin: 0 0 0 10px;
 }
 
-.fulllandscape {
-}
-
-.fullportrait {
-}
-
 .highlight {
     background-color: #ff0;
 }
@@ -394,45 +368,7 @@ pre.code {
     border: 1px dashed #ccc;
 }
 
-/*
- * 
- * Footnotes
- *
- */
-
-.footnotes {
-    padding: 10px 0 10px 0;
-}
-
-.footnotes .footnotedivider {
-    width: 120px;
-    border-bottom: 1px solid #ccc;
-}
-
-.footnotes li {
-    margin: 0 0 5px 0;
-}
-
-sup.footnote a {
-    text-decoration: none !important;
-    border: none !important;
-}
-
-sup.footnote {
-    line-height: 0em;
-}
-
-.footnotereverse a {
-    padding: 0 0 0 5px;
-    text-decoration: none !important;
-    border: none !important;
-}
-
-/*
- * Menu
- *
- */
-
+/* menu */
 .menu-subscribe {
     background: url(images/feedicon.png) 0 3px no-repeat;
     text-indent: 20px;
@@ -443,32 +379,7 @@ sup.footnote {
     border-bottom: none !important;
 }
 
-/*
- * Footbar
- *
- */
-#footbar {
-    overflow: hidden;
-    clear: both;
-}
-
-#left-footbar {
-    width: 315px;
-    float: left;
-    overflow: hidden;
-}
-
-#right-footbar {
-    margin-left: 10px;
-    width: 315px;
-    float: left;
-    overflow: hidden;
-}
-
-/*
- * wp-syntax
- *
- */
+/* wp-syntax */
 .wp_syntax table, .wp_syntax td, .wp_syntax th {
     border: none;
 }
