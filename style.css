@@ -11,14 +11,13 @@ Style modified from http://flagrantdisregard.com/
 
 */
 
-@import url(http://fonts.googleapis.com/css?family=Kreon:400,700);
+@import url(http://fonts.googleapis.com/css?family=Kreon:400);
 
 /* general */
 body {
     background-color: #FFF;
     color: #333;
     font-family: "Kreon", "Xin Gothic", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", Helvetica, Arial, sans-serif;
-    font-weight: 400;
     font-size: 19px;
 }
 
@@ -180,7 +179,7 @@ h3 {
     margin-top: 0.25em;
     color: #ccc;
     font-size: 1.2em;
-    font-weight: bold;
+    font-weight: 400;
 }
 
 .post blockquote {
