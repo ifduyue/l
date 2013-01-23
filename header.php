@@ -13,11 +13,13 @@
 
 <body>
 <div id="page">
-    <ul id="navigation">
+    <div id="navigation">
+        <ul>
         <li <?php if (is_home()): ?>class="current_page_item"<?php endif; ?>><a href="<?php bloginfo('url'); ?>" title="Home">Home</a></li>
         <?php wp_list_pages('title_li=&depth=0&sort_column=menu_order'); ?>
-    </ul>
-    <div id="tagline"> 
+        </ul>
+    </div>
+    <div id="header">
         <h1><a href="/"><?php bloginfo('name'); ?></a></h1>
         <p id="description" style="color:#ccc; font-size:0.8em;font-weight:bold;"><?php bloginfo('description'); ?></p>
         <?php dynamic_sidebar('Index Description'); ?>
