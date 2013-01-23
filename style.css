@@ -81,7 +81,7 @@ h3 {
 #page {
     margin: 30px auto;
     padding: 0;
-    width: 720px;
+    width: 780px;
 }
 
 #navigation {
@@ -91,6 +91,7 @@ h3 {
     position: relative;
     overflow: hidden;
     clear: both;
+    float: right;
 }
 
 #navigation a {
@@ -108,6 +109,14 @@ h3 {
     float: left;
     margin: 0 20px 0 0;
     padding: 0;
+}
+
+#header {
+    float: right;
+}
+
+#content {
+    clear: both;
 }
 
 #footer {
