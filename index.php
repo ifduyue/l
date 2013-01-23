@@ -18,7 +18,7 @@
         <?php comments_template(); ?>
         <?php endwhile; ?>
 
-        <div class="navigation">
+        <div class="pagenation">
             <div class="alignleft"><?php next_posts_link('&laquo; Older Entries') ?></div>
             <div class="alignright"><?php previous_posts_link('Newer Entries &raquo;') ?></div>
         </div>

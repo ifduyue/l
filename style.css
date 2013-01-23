@@ -82,10 +82,10 @@ h3 {
 #page {
     margin: 30px auto;
     padding: 0;
-    width: 640px;
+    width: 720px;
 }
 
-#topnav {
+#navigation {
     color: #fff;
     font-size: 1em;
     margin: 0 0 25px 0;
@@ -94,18 +94,18 @@ h3 {
     clear: both;
 }
 
-#topnav a {
+#navigation a {
     color: #333;
     text-shadow: 1px 1px 0px #fff;
 }
 
-#topnav ul {
+#navigation ul {
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
-#topnav li {
+#navigation li {
     float: left;
     margin: 0 20px 0 0;
     padding: 0;
@@ -140,15 +140,15 @@ h3 {
     overflow: hidden;
 }
 
-.navigation .older {
+.pagenation .older {
     float: left;
 }
 
-.navigation .newer {
+.pagenation .newer {
     float: right;
 }
 
-.navigation.comments {
+.pagenation.comments {
     padding: 0;
 }
 
