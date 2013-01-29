@@ -20,7 +20,7 @@
         </ul>
     </div>
     <div id="header">
-        <?php bloginfo('name'); ?>
+        <h1><a href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a></h1>
         <p id="description" style="color:#ccc; font-size:0.8em;font-weight:bold;"><?php bloginfo('description'); ?></p>
         <?php dynamic_sidebar('Index Description'); ?>
     </div>
