@@ -385,6 +385,7 @@ pre.code {
 .current-menu-item a, .current_page_item a {
     color: #000 !important;
     border-bottom: none !important;
+    text-decoration: none !important;
 }
 
 /* wp-syntax */
